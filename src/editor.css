@@ -1,0 +1,39 @@
+.cm-editor {
+  background: #111;
+  color: white;
+  border-radius: 4px;
+  margin: 20px 0;
+}
+
+.cm-editor .cm-line {
+  font-family: 'Roboto Mono';
+  font-size: 14px;
+}
+
+.cm-editor .cm-activeLine {
+  background: initial;
+}
+
+.cm-editor .cm-line .ͼa {
+  color: #e26bff;
+}
+
+.cm-editor .cm-line .ͼc {
+  color: #ffcc23;
+}
+
+.cm-editor .cm-line .ͼb {
+  color: #23deff;
+}
+
+.cm-editor .cm-gutters {
+  background-color: #222;
+  color: #555;
+  border-right: none;
+  margin-right: 12px;
+  border-radius: 4px 0 0 4px;
+}
+
+.cm-editor .cm-activeLineGutter {
+  background-color: #333;
+}

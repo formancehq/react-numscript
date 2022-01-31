@@ -4,18 +4,16 @@
     "type": "git",
     "url": "https://github.com/numary/react-numscript"
   },
-  "version": "0.2.3",
+  "version": "0.2.5",
   "license": "MIT",
   "source": "src/index.tsx",
   "main": "dist/index.js",
   "types": "dist/types.d.ts",
+  "type": "module",
   "files": [
-    "dist/*.css",
-    "dist/*.css.map",
     "dist/*.js.map",
     "dist/*.d.ts",
-    "dist/*.d.ts.map",
-    "src/editor.css"
+    "dist/*.d.ts.map"
   ],
   "scripts": {
     "build": "parcel build"
@@ -36,8 +34,9 @@
     "react": "17.0.x"
   },
   "devDependencies": {
-    "@parcel/packager-ts": "^2.1.0",
-    "@parcel/transformer-typescript-types": "^2.1.0",
-    "parcel": "^2.1.0"
+    "@parcel/packager-ts": "^2.2.1",
+    "@parcel/transformer-inline-string": "^2.2.1",
+    "@parcel/transformer-typescript-types": "^2.2.1",
+    "parcel": "^2.2.1"
   }
 }

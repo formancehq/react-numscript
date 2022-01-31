@@ -1,7 +1,7 @@
 import {EditorState, EditorView, basicSetup} from "@codemirror/basic-setup";
 import {numscript} from "codemirror-lang-numscript";
 import React, {useRef, useEffect} from 'react';
-// import './editor.css';
+import 'bundle-text:./editor.css';
 
 const NumscriptBlock = ({script, callback}) => {
   const editor = useRef();
